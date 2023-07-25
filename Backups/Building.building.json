@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "64c0278a9a1b71c71e37108e"
+  },
+  "BuildingType": 1,
+  "BuildingCost": 34,
+  "ConstructionTime": 35
+},
+{
+  "_id": {
+    "$oid": "64c0278f9a1b71c71e37108f"
+  },
+  "BuildingType": 1,
+  "BuildingCost": 34,
+  "ConstructionTime": 35
+},
+{
+  "_id": {
+    "$oid": "64c0283e8357a10a795c7a9b"
+  },
+  "BuildingType": 2,
+  "BuildingCost": 2,
+  "ConstructionTime": 30
+},
+{
+  "_id": {
+    "$oid": "64c02d39b52851462fa23c6b"
+  },
+  "BuildingType": 5,
+  "BuildingCost": 5,
+  "ConstructionTime": 32
+}]
