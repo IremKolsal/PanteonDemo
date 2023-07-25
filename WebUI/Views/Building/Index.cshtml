@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid px-4">
+    <br />
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        +Add New
+    </button>
+    <br />
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add New Building</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <select id="buildingType" class="form-select" aria-label="Default select example">
+                            <option selected value="0">Open this select menu</option>
+                            <option value="1">Farm</option>
+                            <option value="2">Academy</option>
+                            <option value="3">Headquarters</option>
+                            <option value="4">LumberMill</option>
+                            <option value="5">Barracks</option>
+                        </select>
+                        <label for="inputBuildingType">Building Type</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="inputBuildingCost" type="number" placeholder="BuildingCost" />
+                        <label for="inputBuildingCost">Building Cost</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="inputConstructionTime" type="number" value="30" placeholder="Construction Time" />
+                        <label for="inputConstructionTime">Construction Time</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" onclick="save()" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Buildings
+        </div>
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
+                    <tr>
+                        <th>Building Type</th>
+                        <th>Building Cost</th>
+                        <th>Construction Time</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Building Type</th>
+                        <th>Building Cost</th>
+                        <th>Construction Time</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="~/js/index.js"></script>
+

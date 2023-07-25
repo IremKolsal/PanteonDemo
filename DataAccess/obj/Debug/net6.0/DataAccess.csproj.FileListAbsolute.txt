@@ -1,0 +1,12 @@
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\irem\source\repos\PanteonDemo\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
